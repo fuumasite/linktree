@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background-image: url("./img/bg.jpg");
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.profile img {
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 3px solid white;
+}
+
+.name {
+  padding: 15px;
+  color: white;
+  font-weight: 600;
+  text-shadow: 2px 1px 2px black;
+  font-size: 24px;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.accordion-button {
+  padding: 20px;
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(58, 58, 255);
+  font-weight: 500;
+}
+
+.accordion-button:hover {
+  background: #ddd !important;
+  transition: all 0.6s ease-in-out;
+}
+
+.link .btn {
+  padding: 20px;
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(58, 58, 255);
+  font-weight: 500;
+}
+
+.link .btn:hover {
+  background: #ddd;
+  transition: all 0.6s ease-in-out;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.icon a {
+  color: white;
+  text-shadow: 2px 1px 2px black;
+}
+
+.icon a:hover {
+  color: #ddd;
+  transition: all 0.6s ease-in-out;
+}
+
+.icon .share {
+  margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  text-shadow: 2px 1px 2px black;
+}
